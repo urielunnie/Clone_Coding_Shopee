@@ -1,0 +1,83 @@
+.banners {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.left-section {
+    margin-right: 5px;
+}
+
+.rolling-banner {
+    width: 815px;
+    border-radius: 2px;
+}
+
+.right-section>img {
+    width: 400px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.bottom-section {
+    width: 1200px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.bottom-section>li>img {
+    width: 45px;
+    margin-bottom: 5px;
+}
+
+.bottom-section>li>span {
+    margin-bottom: auto;
+}
+
+.bottom-section>li:hover>img {
+    width: 48px;
+    margin-bottom: 6px;
+}
+
+.bottom-section>li {
+    width: 100px;
+    height: 80px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.swiper {
+    width: 815px;
+}
+
+.swiper-button-prev {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    left: 0;
+    display: none;
+}
+
+.swiper-button-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    right: 0;
+    display: none;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.swiper:hover>.swiper-button-prev,
+.swiper:hover>.swiper-button-next {
+    display: flex;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white;
+}
